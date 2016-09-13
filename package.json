@@ -18,11 +18,14 @@
     "css2jsobject": "0.0.1"
   },
   "devDependencies": {
+    "rmdir": "^1.2.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0",
     "webpack": "^1.13.2"
   },
   "scripts": {
     "example": "$(npm bin)/webpack --output-filename ./build/index.js ./example/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "$(npm bin)/tape src/**/*.spec.js | $(npm bin)/tap-spec"
   },
   "author": "Yusuke Goto",
   "license": "MIT"
