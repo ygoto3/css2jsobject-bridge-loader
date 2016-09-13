@@ -1,0 +1,29 @@
+{
+  "name": "css2jsobject-bridge-loader",
+  "version": "0.0.1",
+  "description": "A webpack loader to convert css to JavaScript object through a list file",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ygoto3/css2jsobject-bridge-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "css",
+    "js",
+    "style",
+    "object"
+  ],
+  "dependencies": {
+    "css2jsobject": "0.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "example": "$(npm bin)/webpack --output-filename ./build/index.js ./example/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yusuke Goto",
+  "license": "MIT"
+}
