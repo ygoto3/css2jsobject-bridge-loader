@@ -20,7 +20,10 @@ function isFile(file) {
 
 function createFiles2jsobject(context) {
   return file => {
-    const source = path.resolve(context, file.trim());
+    let source = file.trim();
+    if (source[0] === '.') {
+      source = path.resolve(context, source);
+    }
     const content = fs.readFileSync(source).toString();
     return css2jsobject(content);
   };

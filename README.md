@@ -1,9 +1,11 @@
-# css2jsobject-bridge-loader
+# css2jsobject-list-loader
 A webpack loader to convert css to JavaScript object through a list file
 
 ## Usage
 
 You need a list file that tells paths to css files.
+
+./csspaths
 
 ```
 ./style.css
