@@ -7,7 +7,7 @@ const loader = require('./index.js');
 
 const temp = `${__dirname}/temp`;
 
-test('css2jsobject-bridge-loader', t => {
+test('css2jsobject-list-loader', t => {
   if ( !fs.existsSync(temp) ) {
     fs.mkdirSync(temp);
   }
@@ -21,7 +21,7 @@ test('css2jsobject-bridge-loader', t => {
   const actual = loader.call(mockContext, './styles.css');
   const expected = 'module.exports = {".list":{"background-color":"#00ff00"}};';
 
-  t.equal(actual, expected, 'css2jsobject-bridge-loader should convert css contents in a specified file to a JavaScript Object for WebPack to load');
+  t.equal(actual, expected, 'css2jsobject-list-loader should convert css contents in a specified file to a JavaScript Object for WebPack to load');
 
   rmdir(temp);
 

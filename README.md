@@ -28,11 +28,11 @@ The css files are regular css contents.
 .list { background-color: red; display: block; }
 ```
 
-You can get a JavaScript object whose properties and values are simply equivalent to css contents through `css2jsobject-bridge-loader`.
+You can get a JavaScript object whose properties and values are simply equivalent to css contents through `css2jsobject-list-loader`.
 
 
 ```
-const stylesAsJsObject = require('css2jsobject-bridge!./csspaths');
+const stylesAsJsObject = require('css2jsobject-list!./csspaths');
 ```
 
 and below is the result.
