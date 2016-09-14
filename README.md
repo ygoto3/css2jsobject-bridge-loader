@@ -1,5 +1,5 @@
 # css2jsobject-list-loader
-A webpack loader to convert css to JavaScript object through a list file
+A Webpack loader to convert css to JavaScript object through a list file
 
 ## Usage
 
@@ -48,3 +48,7 @@ and below is the result.
   }
 }
 ```
+
+## Requirement
+
+* Node.js v6.3.0~
