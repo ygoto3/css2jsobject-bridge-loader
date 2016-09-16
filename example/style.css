@@ -1,20 +1,22 @@
 :root {
-    --spacing-ss: 4px;
-    --spacing-s: 8px;
-    --spacing-m: 16px;
-    --spacing-l: 20px;
-    --spacing-ll: 24px;
+  --spacing-ss: 4px;
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 20px;
+  --spacing-ll: 24px;
 
-    /*font-size*/
-    --font-size-ss: 8px;
-    --font-size-s: 10px;
-    --font-size-m: 12px;
-    --font-size-l: 14px;
-    --font-size-ll: 16px;
+  /*font-size*/
+  --font-size-ss: 8px;
+  --font-size-s: 10px;
+  --font-size-m: 12px;
+  --font-size-l: 14px;
+  --font-size-ll: 16px;
+}
 
-    /*colors*/
-    --color-primary: #8BC34A;
-    --color-accent: #EC407A;
+:root {
+  /*colors*/
+  --color-primary: #8BC34A;
+  --color-accent: #EC407A;
 }
 
 .a.b, .c {

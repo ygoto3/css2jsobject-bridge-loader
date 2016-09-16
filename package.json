@@ -1,6 +1,6 @@
 {
   "name": "css2jsobject-list-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A webpack loader to convert css to JavaScript object through a list file",
   "main": "src/index.js",
   "repository": {
@@ -15,7 +15,7 @@
     "object"
   ],
   "dependencies": {
-    "css2jsobject": "0.0.1"
+    "css2jsobject": "0.0.2"
   },
   "devDependencies": {
     "rmdir": "^1.2.0",
